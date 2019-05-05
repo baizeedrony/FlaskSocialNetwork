@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+{% for all in variable_poll %}
+
+<H1> {{all.title}}</H1>
+<p> By {{all.author}} on {{all.date_posted}} </p>
+<p> {{all.content}} </p>
+
+{% endfor %}
+{% endblock content %}
