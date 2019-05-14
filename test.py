@@ -1,3 +1,5 @@
+'''
+Class Example of Python
 class user:
     name=''
     email=''
@@ -39,5 +41,24 @@ user1.email='baizeedrony@gmail.com'
 user1.password="12345"
 
 user1.login()
-user1.profile()
+user1.profile()'''
+
+
+'''thistupple=("rony","jamil","kamran","faisal")
+if "rony" in thistupple:
+        print("yes rony is here")
+        print(len(thistupple))'''
+
+'''i=1
+while i<11:
+    print(i)
+    if (i==6):
+        break
+    i+=1'''
+
+x=lambda a,b:a*b
+print(x(3,6))
+
+
+
 
