@@ -60,8 +60,10 @@ while i<11:
 '''x=lambda a,b,c:(a*b)+c
 print(x(9,3,7))'''
 
+
 def myfunc(n):
     return lambda a:a*n
+
 
 mydoubler=myfunc(2)
 print(mydoubler(3))

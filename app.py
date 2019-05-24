@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask, render_template, url_for
 
 app=Flask(__name__)
 
@@ -19,7 +19,7 @@ posts = [
     }
 ]
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template('home.html',variable_poll=posts)
 print(home)
