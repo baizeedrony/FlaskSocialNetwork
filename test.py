@@ -61,13 +61,28 @@ while i<11:
 print(x(9,3,7))'''
 
 
-def myfunc(n):
+'''def myfunc(n):
     return lambda a:a*n
 
 
 mydoubler=myfunc(2)
-print(mydoubler(3))
+print(mydoubler(3))'''
 
+
+'''i = 0
+while i < 40:
+    i += 1
+    if i == 10:
+        continue
+    print(i)'''
+
+
+
+'''for i in range (25):
+    print(i)'''
+
+x = lambda a, b: a+b
+print(x(2, 6))
 
 
 
